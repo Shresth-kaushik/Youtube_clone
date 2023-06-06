@@ -1,0 +1,96 @@
+.subscribe-button {
+    background-color: rgb(210, 0, 0);
+    border: none;
+    color: white;
+    /* height: 25px;
+    width: 70px; */
+/* Rather than using the h and w better option is to use the padding
+; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom:6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    vertical-align: top;
+     
+    transition: opacity 0.20ms;
+} 
+
+/* Pseudo class : Adding special properties to selector.    
+A pseudo-class is used to define a special state of an element.  */
+.subscribe-button:hover{
+  opacity: 0.8;
+}
+
+/* Pseudo class work only when we click on the button */
+ .subscribe-button:active{
+opacity: 0.5;
+ }
+
+.join-button{
+   background-color: white;
+   border-color: rgba(6, 95, 212, 0.757);
+   border-style: solid;
+   border-width: .75px;
+   color:rgba(6, 95, 212, 0.757);
+   border-radius: 2px;
+   /* height: 22px;
+   width: 38px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    cursor: pointer;
+    vertical-align: top;
+
+   transition: background-color .75s , color .75s ;
+}
+
+.join-button:hover{
+    background-color:rgba(18, 61, 169, 0.757);
+    color:white;
+}
+
+.join-button:active{
+    opacity: 0.7;
+}
+
+.tweet-button{
+    background-color: rgb(33, 134, 250);
+    border: none;
+    color: white;
+    height: 22px;
+    width: 46px;
+    border-radius: 11px;
+    font-weight: bold;
+    font-size:10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: top;
+
+    transition: box-shadow 0.25s;
+}
+
+.tweet-button:hover{
+    /*  Here the 0.20 tell us about the opacity of color. 
+        and 3rd pixel value tell us about the opacity of shadow  */
+    box-shadow: 5px 5px 18px rgba(0, 0 , 0 , 0.25) ;
+}
+
+.sign-up{
+    background-color:rgb(46, 164,79);
+    border: none;
+    color:white;
+    height:22px ;
+    width: 46px;
+    font-weight: 9px;
+    font-size: 9px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sign-up:hover{
+    box-shadow: 5px 5px 18px rgba(57, 159, 57, 0.25) ;
+}    

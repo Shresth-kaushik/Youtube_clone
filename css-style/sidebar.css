@@ -1,0 +1,44 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 57px;
+    background-color: white;
+    width: 75px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebar-link{
+    height: 82px;
+    display: flex;
+    /* for the vertical center  */
+    justify-content: center;
+    /* for the vertical center aligment  */
+    align-items: center;
+
+    /* Change the direction of the flex so that the 
+    text came below icons */
+    flex-direction: column;
+
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+/* Another way of targeting the element  */
+/* Target the all image of the sidebar - link */
+.sidebar-link img{
+   height: 28px;
+   margin-bottom: 4px;
+   
+}
+
+/* Target all the div inside the sidebar-link class  */
+.sidebar-link div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+
+}

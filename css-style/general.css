@@ -1,0 +1,15 @@
+/* Same CSS Which are applied to maximum element : eg . Css of the paragraph */
+
+p{
+    font-family: Roboto,Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body{
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 92px;
+    padding-right: 25px;
+    background-color: rgb(247, 247, 247);
+}

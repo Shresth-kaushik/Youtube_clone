@@ -1,0 +1,97 @@
+<!-- Grid => Rigid layout while Flexbox => flexible  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body style="padding-bottom:1000px;">
+
+
+<div style="display: flex; 
+    flex-direction: row;">
+
+<div style="background-color: aqua;  "> div 1 
+</div>
+<div style="background-color: antiquewhite;"> div 2 <p>text 1</p>
+</div>
+</div>
+
+
+
+<div style="display: flex; 
+    flex-direction: row;
+    margin-top: 30px;">
+
+<div style="background-color: aqua;  width: 100px; "> 100px
+</div>
+<div style="background-color: antiquewhite; flex : 1;"> flex 1
+</div>
+</div>
+
+
+<!-- When we change the order i.e 100px written after the flex 1 then also then space alocatted remain 
+    the same but not in the case of the 'Grid' that's why the grid is rigid and flex is flexible  -->
+<div style="display: flex; 
+    flex-direction: row;
+    margin-top: 30px;">
+
+<div style="background-color: aqua;  width: 100px; "> 100px
+</div>
+<div style="background-color:burlywood ; flex: 1;">flex 1</div>
+<div style="background-color: antiquewhite; flex : 2;"> flex 2
+</div>
+</div>
+
+
+<div style="display: flex; 
+    flex-direction: row;
+
+    margin-top: 30px;
+    height: 60px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+
+    /* Position of the element */
+    justify-content: center;
+    ">
+
+<div style="background-color:burlywood ; width: 100px;">100px</div>
+<div style="background-color: aqua;  width: 100px; "> 100px
+</div>
+<div style="background-color: antiquewhite; width: 100px;"> 100px
+</div>
+</div>
+
+<!-- Used to create the header of the Youtube clone project  -->
+
+<div style="display: flex; 
+    flex-direction: row;
+
+    margin-top: 30px;
+    height: 60px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    
+    /* Position of the element */
+    
+    justify-content: space-between;
+    align-items: center;
+    ">
+
+<div style="background-color:burlywood ; width: 100px;">100px</div>
+<div style="background-color: aqua;  width: 100px; "> 100px
+</div>
+<div style="background-color: antiquewhite; width: 100px;"> 100px
+</div>
+</div>
+
+
+</body>
+</html>
